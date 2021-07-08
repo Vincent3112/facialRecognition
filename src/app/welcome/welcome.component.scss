@@ -1,0 +1,88 @@
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .title {
+        width: 300px;
+        text-align: center;
+        margin-top: 32px;
+        font-weight: 600;
+        font-size: 20px;
+        background-color: #008037;
+        color: #FFFFFF;       
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+    .people-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        padding-top: 36px;
+
+        .people {           
+            display: flex;
+
+            mat-card {
+                margin: 8px 8px 8px 8px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;     
+    
+                .stars {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: row;
+                    padding-bottom: 12px;
+                
+                    .star {
+                        height: 42px;
+                        width: 42px;
+                        padding: 0px 8px 0px 8px;
+                    }
+                }
+            }
+        }
+        
+        .vip-people {           
+            display: flex;
+
+            mat-card {
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;     
+    
+                .stars {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: row;
+                    padding-bottom: 12px;
+                
+                    .star {
+                        height: 42px;
+                        width: 42px;
+                        padding: 0px 8px 0px 8px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.spinner {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

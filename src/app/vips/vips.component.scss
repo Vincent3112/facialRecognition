@@ -1,0 +1,24 @@
+.picture-header-cell {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.picture-cell {
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0 12px 0;
+
+    .stars {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding-bottom: 12px;
+    
+        .star {
+            height: 42px;
+            width: 42px;
+            padding: 0px 8px 0px 8px;
+        }
+    }
+}
